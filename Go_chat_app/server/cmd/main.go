@@ -24,4 +24,4 @@ func main() {
 
 	router.InitRouter(userHandler, wsHandler)
 	router.Start("0.0.0.0:8080")
-}
+log
