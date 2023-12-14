@@ -58,4 +58,4 @@ func (c *Client) readMessage(hub *Hub) {
 
 		hub.Broadcast <- msg
 	}
-)
+}
